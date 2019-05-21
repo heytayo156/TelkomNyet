@@ -23,4 +23,6 @@ echo "\e[1;91mJumlah Pesan \e[1;33m: \e[1;36m";
 $jumlah = trim(fgets(STDIN));
 echo "\e[1;91mJeda / Delay \e[1;33m: \e[1;36m";
 $jeda = trim(fgets(STDIN));
-$execute = telkbomb($nomor, $jumlah, $je
+$execute = telkbomb($nomor, $jumlah, $jeda)
+print $execute;
+?>
